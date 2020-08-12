@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import axios from 'axios';
-import ReactDOM from "react-dom";
+//import axios from 'axios';
+//import ReactDOM from "react-dom";
 import { BrowserRouter as Router,
   Switch,
   Route,

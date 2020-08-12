@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../App.css';
-import ReactDOM from "react-dom";
 import axios from 'axios';
 
 export default class AddStrain extends React.Component {
@@ -25,7 +24,7 @@ export default class AddStrain extends React.Component {
             id: '333'
         };
     
-        axios.post(`http://64.227.29.254/strains/`, { addStrain: 'new_strain_name, id' })
+        axios.post(`http://64.227.29.254/strains/`, { addStrain })
           .then(res => {
             console.log(res);
             console.log(res.data);
