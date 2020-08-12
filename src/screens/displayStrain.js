@@ -21,7 +21,7 @@ export default class DisplayStrain extends React.Component {
   render() {
     return (
       <ul>
-        { this.state.strains.map(strain => <li key={strain.id}>{strain.id}</li>)}
+        { this.state.strains.map(strain => <li key={strain.id}>{strain.name}</li>)}
       </ul>
     )
   }
