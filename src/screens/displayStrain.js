@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import {Card, Button, Row, Col, Container } from 'react-bootstrap';
 //import ReactDOM from "react-dom";
-import axios from 'axios';
+//import axios from 'axios';
 
 export default class DisplayStrain extends React.Component {
 
