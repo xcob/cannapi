@@ -14,7 +14,7 @@ import AddStrain from './screens/addStrain';
 export default function App() {
   return (
     <Router>
-      <div>
+      
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -35,7 +35,7 @@ export default function App() {
             <AddStrain />
           </Route>
         </Switch>
-      </div>
+      
     </Router>
   );
   
