@@ -10,7 +10,7 @@ export default class DisplayStrain extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`http://64.227.29.254/strains`)
+    axios.get(`http://dashboard.cannapi.co/strains`)
       .then(res => {
         console.log(res.data);
         const strains = res.data;

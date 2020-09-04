@@ -24,7 +24,7 @@ export default class AddStrain extends React.Component {
             id: '333'
         };
     
-        axios.post(`http://64.227.29.254/strains/`, { addStrain })
+        axios.post(`http://dashboard.cannapi.co/`, { addStrain })
           .then(res => {
             console.log(res);
             console.log(res.data);
